@@ -2,7 +2,7 @@
 
 int main(void) {
 	int a, b, c, d, e;
-	scanf("%1d%1d%1d%1d%1d", &a, &b, &c, &d, &e); //1d´Â ÇÑc¾¿ ²÷¾î¼­ ÀÔ·Â¹Ş 
+	scanf("%1d%1d%1d%1d%1d", &a, &b, &c, &d, &e); //1d%ëŠ” í•œê°œì”© ëŠì–´ì„œ
 	printf("[%d0000]\n",a);
 	printf("[%d000]\n",b);
 	printf("[%d00]\n",c);
