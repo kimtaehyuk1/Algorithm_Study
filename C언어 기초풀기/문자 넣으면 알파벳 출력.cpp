@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 int main(void) {
 	// 반복문의 int는 밖으로 빼주기 
 	int i;
