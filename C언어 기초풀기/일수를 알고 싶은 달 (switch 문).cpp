@@ -1,11 +1,12 @@
 #include <stdio.h>
 
+// case ì—ì„œ ë¬¸ìëŠ” ë¨ ì˜ˆ) case '+': ì´ëŸ°ì‹ìœ¼ë¡œ
 
 int main(void) {
 	
 	int month, days;
 	
-	printf("ÀÏ¼ö¸¦ ¾Ë°í½ÍÀº ´ŞÀ» ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ì¼ìˆ˜ë¥¼ ì•Œê³ ì‹¶ì€ ë‹¬ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf("%d", &month);
 	
 	switch (month) 
@@ -28,6 +29,6 @@ int main(void) {
 	}
 
 
-	printf("%d ¿ùÀÇ ÀÏ¼ö´Â %dÀÔ´Ï´Ù.", month, days);
+	printf("%d ì›”ì˜ ì¼ìˆ˜ëŠ” %dì…ë‹ˆë‹¤.", month, days);
 	return 0;
 }
