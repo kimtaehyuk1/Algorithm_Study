@@ -3,13 +3,13 @@
 # define _CRT_SECURE_NO_WARNINGS 
 
 
-	int get_dice_face(); //ÁÖ»çÀ§ ³­¼ö ÇÔ¼ö 
-	int count_num1(); // 1¹ø ÈÜ¼ö 
-	int count_num2(); // 2¹ø È½¼ö 
-	int count_num3(); //3¹ø È½¼ö 
-	int count_num4(); //4¹ø È½¼ö 
-	int count_num5();  //5¹ø È½¼ö 
-	int count_num6();  //6¹ø È½¼ö 
+	int get_dice_face(); //ì£¼ì‚¬ìœ„ ë‚œìˆ˜ í•¨ìˆ˜ 
+	int count_num1(); // 1ë²ˆ íœ«ìˆ˜ 
+	int count_num2(); // 2ë²ˆ íšŸìˆ˜ 
+	int count_num3(); //3ë²ˆ íšŸìˆ˜ 
+	int count_num4(); //4ë²ˆ íšŸìˆ˜ 
+	int count_num5();  //5ë²ˆ íšŸìˆ˜ 
+	int count_num6();  //6ë²ˆ íšŸìˆ˜ 
 
 int main(void) {
 	
@@ -55,7 +55,7 @@ int main(void) {
 
 int get_dice_face() {
 	
-	return rand() % 6 + 1;  //ÀÌ·¡¾ß 1~6³ª¿È 
+	return rand() % 6 + 1;  //ì´ë˜ì•¼ 1~6ë‚˜ì˜´ 
 }
 
 int count_num1() {
